@@ -21,8 +21,10 @@ body{
   font-weight: bold;
   text-decoration: underline #eb5d1e;
 }
+
 .jumbotron{
     background: url("https://i.imgur.com/4MuY3MR.png") repeat-x fixed;
+    /*background: url('../img/photo.jpg') no-repeat fixed;*/
     font-family: Poppins;
     font-size: 2em;
     box-shadow: 20px 20px 50px #c2b7b1;
@@ -524,11 +526,11 @@ body{
 .card-img--1.animated , .card--1.animated ,
 .card-img--2.animated , .card--2.animated ,
 .card-img--3.animated , .card--3.animated ,
-.team-img--1 , .team-img--3 ,
-.team-img--2 , .team-img--4 ,
-.ques , .quesans,
-.footer-newsletter,
-.learn{
+.team-img--1.animated , .team-img--3.animated ,
+.team-img--2.animated , .team-img--4.animated ,
+.ques , .quesans.animated,
+.footer-newsletter.animated,
+.learn.animated{
   opacity: 1;
 }
 /*.image--1.animated{
