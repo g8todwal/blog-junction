@@ -673,3 +673,24 @@ section {
 .news.animated , .carousel.animated{
   opacity: 1;
 }
+
+#loginModal{
+  box-shadow: 20px 20px 50px #c2b7b1;
+}
+.modal-header{
+  background: url("https://i.imgur.com/4MuY3MR.png") no-repeat fixed;
+    /*background: url('../img/photo.jpg') no-repeat fixed;*/
+    font-family: Poppins;
+    
+}
+.close{
+  color: #212529;
+}
+.modal-content{
+  background: #fef8f5;
+  color: #212529;
+}
+
+.sign:hover , .cancel:hover{
+  transform: translateY(5px);
+}

@@ -28,7 +28,7 @@
                     <li class="nav-item active"><a class="nav-link " href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="./trending.html"><span class="fa fa-thermometer-half fa-lg"></span> Trending Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Publish your Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-pen-nib fa-lg"></span> Know Us More</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html"><span class="fas fa-pen-nib fa-lg"></span> Know Us More</a></li>
                 </ul>
                 <span class="navbar-text">
                     <a data-toggle="modal" data-target="#loginModal">
@@ -37,6 +37,42 @@
             </div>
         </div>
     </nav>
+        <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><strong>Login </strong></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto cancel" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1 sign">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jumbotron -->
     <header class="jumbotron">
         <div class="animated zoomInDown">
@@ -203,7 +239,7 @@
               </li>
 
               <li>
-                <a data-toggle="collapse" href="#faq2" class="collapsed quesans faster delay-1s">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fas fa-arrow-down"></i></a>
+                <a data-toggle="collapse" href="#faq2" class="collapsed quesans fast ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fas fa-arrow-down"></i></a>
                 <div id="faq2" class="collapse ques" data-parent=".faq-list">
                   <p>
                     Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
@@ -212,7 +248,7 @@
               </li>
 
               <li>
-                <a data-toggle="collapse" href="#faq3" class="collapsed quesans faster delay-2s">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fas fa-arrow-down"></i></a>
+                <a data-toggle="collapse" href="#faq3" class="collapsed quesans slow">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fas fa-arrow-down"></i></a>
                 <div id="faq3" class="collapse ques" data-parent=".faq-list">
                   <p>
                     Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
@@ -221,7 +257,7 @@
               </li>
 
               <li>
-                <a data-toggle="collapse" href="#faq4" class="collapsed quesans faster delay-3s">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fas fa-arrow-down"></i></a>
+                <a data-toggle="collapse" href="#faq4" class="collapsed quesans faster delay-1s">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fas fa-arrow-down"></i></a>
                 <div id="faq4" class="collapse ques" data-parent=".faq-list">
                   <p>
                     Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
@@ -230,7 +266,7 @@
               </li>
 
               <li>
-                <a data-toggle="collapse" href="#faq5" class="collapsed quesans faster delay-4s">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fas fa-arrow-down"></i></a>
+                <a data-toggle="collapse" href="#faq5" class="collapsed quesans fast delay-1s">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fas fa-arrow-down"></i></a>
                 <div id="faq5" class="collapse ques" data-parent=".faq-list">
                   <p>
                     Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
@@ -239,7 +275,7 @@
               </li>
 
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed quesans faster delay-5s">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fas fa-arrow-down"></i></a>
+                <a data-toggle="collapse" href="#faq6" class="collapsed quesans slow delay-1s">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fas fa-arrow-down"></i></a>
                 <div id="faq6" class="collapse ques" data-parent=".faq-list">
                   <p>
                     Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
@@ -276,7 +312,7 @@
                     <h3 style="color:#eb5d1e; font-weight: bold;">Blog-Junction</h3>
                     <p>
                       133, Arjun Nagar <br>
-                      Durgapura, Jiapur 302018<br>
+                      Durgapura, Jaipur-302018<br>
                       Raj., India <br><br>
                       <strong><i class="fas fa-phone"></i></strong>  +91-8949461981<br>
                       <strong><i class="fas fa-envelope"></i></strong>  gauravtodwal56@gmail.com<br>
@@ -416,7 +452,7 @@
         // ======= FAQ-animation ===========
 
         $('.quesans').waypoint(function(direction){
-        $('.quesans').addClass('animated slideInLeft')
+        $('.quesans').addClass('animated slideInLeft faster')
         },{
           offset : '700px'
         })
