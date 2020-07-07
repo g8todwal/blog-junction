@@ -635,8 +635,8 @@ section {
         transition: ease-in-out all .8s; 
         -moz-transition: ease-in-out all .4s;
         -webkit-transition: ease-in-out all .4s;
-        color:#eb5d1e;
-        text-decoration:underline #eb5d1e;
+        color: var(--cyan);
+        text-decoration:underline var(--cyan);
         font-weight:bold;
         transform: translateX(8px);
       }    
