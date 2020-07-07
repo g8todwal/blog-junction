@@ -22,7 +22,7 @@ body{
 .nav-link{
     margin-right:8px; 
 }
-.nav-text{
+.navbar-text{
     cursor: pointer;
 }
 .nav-link:hover , .navbar-text:hover{
@@ -620,12 +620,12 @@ textarea {
 
 }
 @media(max-width: 575px){
-    .nav-link:hover {
+   .nav-link:hover {
         transition: ease-in-out all .8s; 
         -moz-transition: ease-in-out all .4s;
         -webkit-transition: ease-in-out all .4s;
-        color:#eb5d1e;
-        text-decoration:underline #eb5d1e;
+        color:var(--cyan);
+        text-decoration:underline var(--cyan);
         font-weight:bold;
         transform: translateX(8px);
       }    
@@ -639,7 +639,7 @@ textarea {
         margin: 0px auto;
         font-size: 1em;
         color:#000304;
-    }
+    }    
     
     #footer .copyright, #footer .credits {
       float: none;

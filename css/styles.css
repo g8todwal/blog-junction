@@ -13,7 +13,7 @@ body{
 .nav-link{
     margin-right:8px; 
 }
-.nav-text{
+.navbar-text{
     cursor: pointer;
 }
 .nav-link:hover , .navbar-text:hover{
